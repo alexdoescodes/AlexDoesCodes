@@ -1,6 +1,6 @@
 **Hi, I’m @AlexDoesCodes**
 - Student in the dual study program for Business informatics at Bayer
-- Currently working in Leverkusen, Germany
+- Currently working in Leverkusen, Germany doing my Bachelor's degree in Science
 - I mainly code in swift and java, but I am also fluent in python and have general knowledge in C++
 - Besides work I'm interested in racing my bikes.
 - Most of my work here is company restricted so you probably won't see much motion here.
