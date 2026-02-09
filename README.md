@@ -3,7 +3,7 @@
 - Currently working in Leverkusen, Germany doing my Bachelor's degree in Science
 - I mainly code in swift and java, but I am also fluent in python and have general knowledge in C++
 - Besides work I'm interested in racing my bikes.
-- Most of my work here is company restricted so you probably won't see much motion here.
+- Most of my work here is company restricted so you probably won't see much motion.
 
 <!---
 AlexDoesCodes/AlexDoesCodes is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
