@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **alexander.hohenhorst@gmx.de (personal)**
 
-- ⚡ Fun fact **I drove Motorcycles before learning basic algebra…**
+- ⚡ Fun fact **I rode Motorcycles before learning basic algebra…**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
