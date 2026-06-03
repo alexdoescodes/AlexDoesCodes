@@ -1,10 +1,7 @@
 # Hi 👋, I'm Alexander Hohenhorst
 
 ### BI Student @ Bayer AG
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=alexdoescodes&label=Profile views&color=0e75b6&style=flat" alt="alexdoescodes" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=alexdoescodes" alt="alexdoescodes" /></a> </p>
+### University of Applied Sciences (FHDW in Bergisch Gladbach)
 
 - 🔭 I'm currently working on **Machine Learning & AI internship at Bayer‘s enabling functions**
 
