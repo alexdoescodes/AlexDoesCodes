@@ -3,7 +3,7 @@
 ### BI Student @ Bayer AG
 ### University of Applied Sciences (FHDW in Bergisch Gladbach)
 
-- 🔭 I'm currently working on **Machine Learning & AI internship at Bayer‘s enabling functions**
+- 🔭 I'm currently working on **Agentic Data Structuring and working with LLMs (and Harnesses)**
 
 - 🌱 I'm currently learning **Bachelor of Science in BI focused on Data Science**
 
