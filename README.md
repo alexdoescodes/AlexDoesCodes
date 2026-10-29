@@ -1,26 +1,44 @@
-# Hi 👋, I'm Alexander Hohenhorst
+<div align="center">
 
-### BI Student @ Bayer AG
-### University of Applied Sciences (FHDW in Bergisch Gladbach)
+<!-- animated contribution graph: real data, boxes reveal cell by cell
+     (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
-- 🔭 I'm currently working on **Data preparation and AI Supported Technology scanning**
+<h3><code>alex@github ~ $ ./contributions.sh</code></h3>
 
-- 🌱 I'm currently learning **Bachelor of Science in BI focused on Data Science**
+<img src="./contrib-heatmap.svg" width="860" alt="Alexander's GitHub contribution graph — auto-refreshed daily" />
 
-- 📫 How to reach me **alexander.hohenhorst@gmx.de (personal)**
+<br>
+<br>
 
-- ⚡ Fun fact **I rode Motorcycles before learning basic algebra…**
+<!-- ascii portrait (left) + streak/numbers card (right). both svgs are
+     840x880 so equal widths give equal heights.
+     portrait: python scripts/prep_photo.py <photo.png> && python scripts/make_ascii_svg.py
+     stats:    python scripts/render_stats_svg.py (same daily workflow) -->
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://github.com/alexdoescodes" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="alexdoescodes" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/alexander-hohenhorst-7768532a0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alexander-hohenhorst-7768532a0" height="30" width="40" /></a>
-<a href="https://instagram.com/triple_h_racing" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="triple_h_racing" height="30" width="40" /></a>
-</p>
+<h3><code>alex@github ~ $ whoami</code></h3>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/azure" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=azure" alt="azure" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/dart" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=dart" alt="dart" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/docker" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/fastapi" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=fastapi" alt="fastapi" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/flutter" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=flutter" alt="flutter" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/git" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/java" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mlflow" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/mlflow/0194E2" alt="mlflow" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mysql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/objectivec" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=apple" alt="objectivec" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pandas" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/sqlite" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=sqlite" alt="sqlite" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/streamlit" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="streamlit" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/swift" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=swift" alt="swift" width="40" height="40"/> </a></p>
+<table>
+<tr>
+<td valign="top"><img src="./alex-ascii.svg" width="420" alt="Alexander Hohenhorst — ASCII portrait" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="Alexander's GitHub streak and contribution stats — auto-refreshed daily" /></td>
+</tr>
+</table>
 
+<br>
+<br>
 
+<h3><code>alex@github ~ $ ./links.sh</code></h3>
 
+<p><b>BI Student @ Bayer AG · Data Science · FHDW Bergisch Gladbach</b></p>
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-alexander--hohenhorst-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/alexander-hohenhorst-7768532a0)
+[![Instagram](https://img.shields.io/badge/Instagram-triple__h__racing-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/triple_h_racing)
+[![Email](https://img.shields.io/badge/Email-alexander.hohenhorst@gmx.de-0d1117?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:alexander.hohenhorst@gmx.de)
+
+<br>
+
+<h3><code>alex@github ~ $ ls ~/stack</code></h3>
+
+<img src="https://skillicons.dev/icons?i=py,azure,docker,fastapi,flutter,dart,git,java,linux,mysql,sqlite,swift,apple&perline=13" alt="Tech stack" />
+
+</div>
