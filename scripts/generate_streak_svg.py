@@ -49,7 +49,7 @@ W = LEFT + NW*(CELL+GAP) + 6
 H = TOP + 7*(CELL+GAP) + 22
 
 # timing (seconds)
-REVEAL, DUR = 3.6, 0.55
+REVEAL, DUR = 1.5, 0.4
 maxorder = (NW-1) + 6*0.55
 
 rects, labels = [], []
