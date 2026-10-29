@@ -56,7 +56,7 @@ INK = "#c9d1d9"      # the single ascii color (matches Andrew6rant)
 CURSOR = "#c9d1d9"
 
 # ---- reveal timing (one-shot; a cursor rasters top -> bottom) -------------
-ROW_DUR = 5.8 / ROWS  # whole portrait prints in ~6s at any resolution
+ROW_DUR = 2 / ROWS  # whole portrait prints in ~6s at any resolution
 STAGGER = ROW_DUR       # == ROW_DUR -> a single cursor sweeping down
 
 # ---- 1. sample the image into a COLS x ROWS grayscale grid ----------------
