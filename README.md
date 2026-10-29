@@ -34,14 +34,14 @@
 
 <p><b>BI Student @ Bayer AG · Data Science · FHDW Bergisch Gladbach</b></p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-alexander--hohenhorst-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/alexander-hohenhorst-7768532a0)
-[![Instagram](https://img.shields.io/badge/Instagram-triple__h__racing-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/triple_h_racing)
-[![Email](https://img.shields.io/badge/Email-alexander.hohenhorst@gmx.de-0d1117?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:alexander.hohenhorst@gmx.de)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-alexander--hohenhorst-0d1117?style=flat-square&logo=linkedin&logoColor=39d353&labelColor=161b22&color=30363d)](https://linkedin.com/in/alexander-hohenhorst-7768532a0)
+[![Instagram](https://img.shields.io/badge/Instagram-triple__h__racing-0d1117?style=flat-square&logo=instagram&logoColor=39d353&labelColor=161b22&color=30363d)](https://instagram.com/triple_h_racing)
+[![Email](https://img.shields.io/badge/Email-alexander.hohenhorst@gmx.de-0d1117?style=flat-square&logo=maildotru&logoColor=39d353&labelColor=161b22&color=30363d)](mailto:alexander.hohenhorst@gmx.de)
 
 <br>
 
 <h3><code>alex@github ~ $ ls ~/stack</code></h3>
 
-<img src="https://skillicons.dev/icons?i=py,azure,docker,fastapi,flutter,dart,git,java,linux,mysql,sqlite,swift,apple&perline=13" alt="Tech stack" />
+<img src="./stack.svg" width="860" alt="Tech stack: Python, TypeScript, Java, Swift, React, Tailwind CSS, Vite, MLflow, Streamlit, MySQL, SQLite, FastAPI, Docker, Azure, Git, Linux, Databricks, Prometheus, Grafana, GitHub Actions, Flutter, iOS" />
 
 </div>
