@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Generate an animated GitHub-streak SVG (squares light up one by one).
 Works standalone; designed to run in a GitHub Action daily to stay live.
-Usage: python generate_streak_svg.py [username] [output.svg]
+Usage: python generate_streak_svg.py [username] [output.svg] [dark|light]
 """
 import sys, json, os, datetime, urllib.request
 
 USER = sys.argv[1] if len(sys.argv) > 1 else "alexdoescodes"
 OUT  = sys.argv[2] if len(sys.argv) > 2 else "streak.svg"
+THEME = sys.argv[3] if len(sys.argv) > 3 else "dark"
 
 def get_data(user):
     # prefer the snapshot fetch_contributions.py just scraped from github itself,
@@ -34,9 +35,12 @@ total = data["total"]["lastYear"]
 
 # ---- layout ----
 CELL, GAP, RAD, LEFT, TOP = 13, 3, 2.5, 34, 24
-COLORS = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-FLASH = "#b4ffaa"
-GRAY = "#7d8590"
+# (palette, label gray, total text, flash brightness): github's own dark / light ramps
+THEMES = {
+    "dark":  (["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"], "#7d8590", "#e6edf3", 2.4),
+    "light": (["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"], "#57606a", "#1f2328", 0.6),
+}
+COLORS, GRAY, INK, FLASH_B = THEMES[THEME]
 MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 
 n = len(contribs)
@@ -72,11 +76,11 @@ for i, c in enumerate(contribs):
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
 <style>
   text.lbl {{ fill:{GRAY}; font-size:13px; font-weight:600; }}
-  text.total {{ fill:#e6edf3; font-size:15px; font-weight:700; }}
+  text.total {{ fill:{INK}; font-size:15px; font-weight:700; }}
   .c {{ transform-box:fill-box; transform-origin:center; opacity:0; animation:pop {DUR}s ease-out both; }}
   .g {{ animation:pop {DUR}s ease-out both, flash {DUR+0.15}s ease-out both; }}
   @keyframes pop {{ 0%{{opacity:0;transform:scale(.2)}} 60%{{opacity:1;transform:scale(1.1)}} 100%{{opacity:1;transform:scale(1)}} }}
-  @keyframes flash {{ 0%{{filter:brightness(2.4)}} 45%{{filter:brightness(2.4)}} 100%{{filter:brightness(1)}} }}
+  @keyframes flash {{ 0%{{filter:brightness({FLASH_B})}} 45%{{filter:brightness({FLASH_B})}} 100%{{filter:brightness(1)}} }}
   @media (prefers-reduced-motion: reduce) {{ .c {{ opacity:1 !important; animation:none !important; }} }}
 </style>
 <rect width="{W}" height="{H}" fill="none"/>

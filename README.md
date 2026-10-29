@@ -5,7 +5,10 @@
 
 <h3><code>alex@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Alexander's GitHub contribution graph — auto-refreshed daily" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./contrib-heatmap-light.svg">
+  <img src="./contrib-heatmap.svg" width="860" alt="Alexander's GitHub contribution graph — auto-refreshed daily" />
+</picture>
 
 <br>
 <br>

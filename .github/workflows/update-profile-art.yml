@@ -30,7 +30,9 @@ jobs:
         run: python scripts/fetch_contributions.py
 
       - name: Render animated contribution graph SVG
-        run: python scripts/generate_streak_svg.py alexdoescodes contrib-heatmap.svg
+        run: |
+          python scripts/generate_streak_svg.py alexdoescodes contrib-heatmap.svg dark
+          python scripts/generate_streak_svg.py alexdoescodes contrib-heatmap-light.svg light
 
       - name: Render streak / numbers card
         run: python scripts/render_stats_svg.py
@@ -39,4 +41,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg contrib-heatmap-light.svg stats.svg"
