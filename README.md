@@ -36,7 +36,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-alexander--hohenhorst-0d1117?style=flat-square&logo=linkedin&logoColor=39d353&labelColor=161b22&color=30363d)](https://linkedin.com/in/alexander-hohenhorst-7768532a0)
 [![Instagram](https://img.shields.io/badge/Instagram-triple__h__racing-0d1117?style=flat-square&logo=instagram&logoColor=39d353&labelColor=161b22&color=30363d)](https://instagram.com/triple_h_racing)
-[![Email](https://img.shields.io/badge/Email-alexander.hohenhorst@gmx.de-0d1117?style=flat-square&logo=maildotru&logoColor=39d353&labelColor=161b22&color=30363d)](mailto:alexander.hohenhorst@gmx.de)
+[![Email](https://img.shields.io/badge/Email-alexander@tripleh-solutions.de-0d1117?style=flat-square&logo=maildotru&logoColor=39d353&labelColor=161b22&color=30363d)](mailto:alexander@tripleh-solutions.de)
 
 <br>
 
